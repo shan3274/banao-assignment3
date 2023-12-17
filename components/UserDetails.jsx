@@ -46,7 +46,7 @@ const UserDetails = ({ props, onBack }) => {
           {imgUlr ? (
             <ReactImageFallback
               src={avatar}
-              fallbackImage={`https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/${user?.id}.jpg`}
+              fallbackImage={`https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/${id}.jpg`}
               initialImage="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1656px-User_icon-cp.svg.png"
               alt="avatar"
               className="w-[200px] h-[200px] rounded-full"
