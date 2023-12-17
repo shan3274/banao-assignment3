@@ -36,7 +36,7 @@ const UserDetails = ({ props, onBack }) => {
           className={`lg:w-[50%] w-full  h-full flex flex-col items-center gap-5 justify-around py-10 duration-700 relative"}`}
         >
           <IoCaretBack
-            className="absolute top-20 text-[30px] left-10 lg:hidden text-[#8064A2]"
+            className="absolute top-20 text-[30px] left-2 lg:hidden text-[#8064A2]"
             onClick={onBack}
           />
           <h1 className="lg:w-[70%] w-[90%]  text-center text-[35px] font-[700] h-[3.5rem] bg-[#8064A2] rounded-t-[8px] text-white">
@@ -46,7 +46,7 @@ const UserDetails = ({ props, onBack }) => {
           {imgUlr ? (
             <ReactImageFallback
               src={avatar}
-              fallbackImage="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/128.jpg"
+              fallbackImage="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1656px-User_icon-cp.svg.png"
               initialImage={`https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/${id}.jpg`}
               alt="avatar"
               className="w-[200px] h-[200px] rounded-full"

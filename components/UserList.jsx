@@ -55,7 +55,7 @@ const UserList = () => {
                       {" "}
                       <ReactImageFallback
                         src={user?.avatar}
-                        fallbackImage="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/128.jpg"
+                        fallbackImage="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/User_icon-cp.svg/1656px-User_icon-cp.svg.png"
                         initialImage={`https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/${user?.id}.jpg`}
                         alt="avatar"
                         className="w-[30px] h-[30px] rounded-full"
